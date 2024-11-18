@@ -1,0 +1,13 @@
+sys.start;
+
+{
+  {
+    sys.var.class: basefile;
+    sys.var.define(basefile):
+      var.class.name: "machine-learner" -- var.setting: front;
+      sys.var.define.option: break;
+      endl;
+  }
+}
+
+sys.end;
